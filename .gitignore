@@ -28,6 +28,21 @@ addons/
 !/storage/*/index.html
 !/storage/*/.htaccess
 defines.php
+
+# i18n
+# cockpit
+!/config/cockpit
+/config/cockpit/*
+!/config/cockpit/i18n
+# tinymce
+!/storage/assets
+/storage/assets/*
+!/storage/assets/cockpit/
+/storage/assets/cockpit/*
+!/storage/assets/cockpit/i18n
+/storage/assets/cockpit/i18n/*
+!/storage/assets/cockpit/i18n/tinymce
+
 # Sublime Text
 *.sublime-workspace
 *.sublime-project
